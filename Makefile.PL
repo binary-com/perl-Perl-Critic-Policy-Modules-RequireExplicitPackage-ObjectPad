@@ -7,20 +7,17 @@ use 5.006;
 use ExtUtils::MakeMaker;
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Always make the package/Object::Pad class explicit.",
+  "ABSTRACT" => "...",
   "AUTHOR" => "DERIV <DERIV\@cpan.org>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0
   },
   "DISTNAME" => "Perl-Critic-Policy-Modules-RequireExplicitPackage-ObjectPad",
-  "LICENSE" => "restrictive",
+  "LICENSE" => "perl",
   "MIN_PERL_VERSION" => "5.006",
   "NAME" => "Perl::Critic::Policy::Modules::RequireExplicitPackage::ObjectPad",
   "PREREQ_PM" => {
-    "Class::Method::Modifiers" => 0,
-    "Perl::Critic::Policy::Modules::RequireExplicitPackage" => 0,
     "indirect" => "0.37",
-    "parent" => 0,
     "strict" => 0,
     "warnings" => 0
   },
@@ -42,18 +39,15 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "Class::Method::Modifiers" => 0,
   "ExtUtils::MakeMaker" => 0,
   "File::Spec" => 0,
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
   "PPI" => 0,
-  "Perl::Critic::Policy::Modules::RequireExplicitPackage" => 0,
   "Scalar::Util" => 0,
   "Test::CheckDeps" => "0.010",
   "Test::More" => "0.98",
   "indirect" => "0.37",
-  "parent" => 0,
   "strict" => 0,
   "warnings" => 0
 );
