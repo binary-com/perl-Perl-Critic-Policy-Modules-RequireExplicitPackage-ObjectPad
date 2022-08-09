@@ -17,8 +17,8 @@ my %WriteMakefileArgs = (
   "MIN_PERL_VERSION" => "5.006",
   "NAME" => "Perl::Critic::Policy::Modules::RequireExplicitPackage::ObjectPad",
   "PREREQ_PM" => {
-    "Class::Method::Modifiers" => 0,
-    "Perl::Critic::Policy::Modules::RequireExplicitPackage" => 0,
+    "Class::Method::Modifiers" => "2.13",
+    "Perl::Critic::Policy::Modules::RequireExplicitPackage" => "1.134",
     "indirect" => "0.37",
     "parent" => 0,
     "strict" => 0,
@@ -42,13 +42,13 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "Class::Method::Modifiers" => 0,
+  "Class::Method::Modifiers" => "2.13",
   "ExtUtils::MakeMaker" => 0,
   "File::Spec" => 0,
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
   "PPI" => 0,
-  "Perl::Critic::Policy::Modules::RequireExplicitPackage" => 0,
+  "Perl::Critic::Policy::Modules::RequireExplicitPackage" => "1.134",
   "Scalar::Util" => 0,
   "Test::CheckDeps" => "0.010",
   "Test::More" => "0.98",
